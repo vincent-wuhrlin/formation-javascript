@@ -1,0 +1,12 @@
+# GIT Ignore files
+*~
+.DS_Store
+.gradle
+.idea
+.vertx
+*.iml
+bin
+build
+conf
+node_modules
+out

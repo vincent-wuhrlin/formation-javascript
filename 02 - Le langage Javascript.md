@@ -1,21 +1,21 @@
-# Le langage Javascript
+# 2. Le langage Javascript
 Création d’une mini application de bibliothèque multimédia
 
 
-## 1. Initialisation
-- Télécharger les sources
-- Créer un nouveau fichier javascript **"app.js"** dans le répertoire **js**
-- Editer le fichier **"app.js"**
-- Créer une méthode `initialize()` et l'appeler
-- Dans le corps de la méthode, afficher un debug sur la console, ex : `console.debug("Initialize !");`
-- Afficher la console developpeur et vérifier que le message s'afficher
+## 2.1. Initialisation
+- Editer le fichier js/app.js
+- Créer une méthode globale `initialize()` et l'appeler
+- Dans le corps de la méthode, afficher un debug sur la console : `console.debug("Initialize !");`
+- Ouvrir la page index.html, afficher la console developpeur et vérifier que le message s'affiche (un refresh
+  de la page peut s'avérer nécessaire)
  
 Résultat :
 
     Initialize !
 
     
-## 2. Création d'une classe *Application*
+## 2.2. Création d'une classe *Application*
+- Editer le fichier js/app.js
 - Déclarer une classe **"Application"**
 - Dans le constructeur de la classe, déclarer et initialiser les variables suivantes :
   - name : "ORSYS Tunes"
@@ -40,8 +40,9 @@ Résultat :
     ***********************************************
 
 
-## 3. Ajout de la date au démarrage
-- Dans la méthode start() et juste après avoir affiché le premier message
+## 2.3. Ajout de la date au démarrage
+- Editer le fichier js/app.js
+- Dans la méthode start() de la classe Application et juste après avoir affiché le premier message
     - Afficher un nouveau message sur la console (info) : `ORSYS Tunes v1.0 started at Tue Jun 06 2017 17:31:09 GMT+0200 (CEST) !
 ` utilisant name et version définit dans le constructeur ainsi que la date en cours
 
@@ -55,10 +56,11 @@ Résultat :
     ***********************************************
     
     
-## 4. Initialisation de la liste des musiques
-- Dans le constructeur, déclarer et initialiser un attribut "songs" de type array avec 4 musiques
+## 2.4. Initialisation de la liste des musiques
+- Editer le fichier js/app.js
+- Dans le constructeur de la classe Application, déclarer et initialiser un attribut "songs" de type array avec 4 musiques
   - Chaque musique est un objet contenant un attribut title et artist
-- Dans la méthode start() et juste après de mettre la valeur true à l'attribut initialized
+- Dans la méthode `start()` de la classe Application et juste après de mettre la valeur true à l'attribut initialized
   - Ajouter la 5 ème musique à la liste existante "songs" en utilisant la méthode appropriée
 - Exemple de liste de musiques (titre / auteur) :
   - New Year's Day / U2
@@ -80,3 +82,10 @@ Résultat :
     - Smoke on the Water / Deep Purple
     - Light My Fire / The Doors
     ***********************************************
+    
+    
+## 2.5. Ajout d'une gestion d'erreur try / catch
+- Editer le fichier js/app.js
+- Entourer le code de la méthode `initialize()` d'un bloc `try() catch()` et afficher un message d'erreur
+  ainsi que l'exception dans la console (error)
+- Valider le code en forcant une erreur (par exemple en accédant à une propriété d'un object qui n'existe pas)

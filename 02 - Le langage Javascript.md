@@ -3,6 +3,9 @@ Création d’une mini application de bibliothèque multimédia
 
 
 ## 2.1. Initialisation
+
+**Objectifs** : charger un fichier JavaScript au sein d'une page HTML et afficher du texte sur la console. 
+
 - Editer le fichier js/app.js
 - Créer une méthode globale `initialize()` et l'appeler
 - Dans le corps de la méthode, afficher un debug sur la console : `console.debug("Initialize !");`
@@ -15,6 +18,9 @@ Résultat :
 
     
 ## 2.2. Création d'une classe *Application*
+
+**Objectifs** : instancier une classe Javascript, apppeler une méthode et manipuler des chaines de caractères
+
 - Editer le fichier js/app.js
 - Déclarer une classe **"Application"**
 - Dans le constructeur de la classe, déclarer et initialiser les variables suivantes :
@@ -41,6 +47,9 @@ Résultat :
 
 
 ## 2.3. Ajout de la date au démarrage
+
+**Objectifs** : instancier un objet date
+
 - Editer le fichier js/app.js
 - Dans la méthode start() de la classe Application et juste après avoir affiché le premier message
     - Afficher un nouveau message sur la console (info) : `ORSYS Tunes v1.0 started at Tue Jun 06 2017 17:31:09 GMT+0200 (CEST) !
@@ -57,6 +66,9 @@ Résultat :
     
     
 ## 2.4. Initialisation de la liste des musiques
+
+**Objectifs** : manipuler un tableau
+
 - Editer le fichier js/app.js
 - Dans le constructeur de la classe Application, déclarer et initialiser un attribut "songs" de type array avec 4 musiques
   - Chaque musique est un objet contenant un attribut title et artist
@@ -85,6 +97,9 @@ Résultat :
     
     
 ## 2.5. Ajout d'une gestion d'erreur try / catch
+
+**Objectifs** : utiliser un bloc try()...catch()
+
 - Editer le fichier js/app.js
 - Entourer le code de la méthode `initialize()` d'un bloc `try() catch()` et afficher un message d'erreur
   ainsi que l'exception dans la console (error)

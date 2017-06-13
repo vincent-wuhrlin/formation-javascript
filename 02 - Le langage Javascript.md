@@ -104,3 +104,26 @@ Résultat :
 - Entourer le code de la méthode `initialize()` d'un bloc `try() catch()` et afficher un message d'erreur
   ainsi que l'exception dans la console (error)
 - Valider le code en forcant une erreur (par exemple en accédant à une propriété d'un object qui n'existe pas)
+
+
+## 2.6. BONUS
+
+
+### 2.6.1. Création d'un array de 10000 éléments
+
+- Ajouter 10000 éléments texte formatéts comme cela : "Element 00001", "Element 00002", etc dans un array
+- Supprimer les éléments de 2 (inclus) à 9998 (inclus)
+- Afficher les élements sous la forme d'une chaine de caractère dans la console :
+
+Résultat :
+
+    Element 00001, Element 00002, Element 09999, Element 10000
+
+### 2.6.2. Customisation de l'objet Date
+
+- Ajouter une méthode "getCurrentMonthInFrench" qui renvoie le mois en cours en Français
+
+Résultat :
+
+    Juin
+

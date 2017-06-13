@@ -111,8 +111,8 @@ Résultat :
 
 ### 2.6.1. Création d'un array de 10000 éléments
 
-- Ajouter 10000 éléments texte formatéts comme cela : "Element 00001", "Element 00002", etc dans un array
-- Supprimer les éléments de 2 (inclus) à 9998 (inclus)
+- Ajouter 10000 éléments texte formattés comme cela : "Element 00001", "Element 00002", etc dans un array
+- Supprimer les éléments de 3 (inclus) à 9998 (inclus)
 - Afficher les élements sous la forme d'une chaine de caractère dans la console :
 
 Résultat :
@@ -126,4 +126,3 @@ Résultat :
 Résultat :
 
     Juin
-

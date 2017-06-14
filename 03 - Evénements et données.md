@@ -40,3 +40,23 @@ soit dynamique : `ORSYS Tunes v1.0`
     On mouse move => [198,213]
     On mouse move => [200,212]
     On mouse move => [207,210]
+
+
+
+## 3.4. Detection de la position du curseur dans une zone
+
+**Objectifs** : utilisation avancée d'un écouteur d'évènement et algorithmique
+
+- Détecter le fait que le curseur de la souris rentre dans la zone du boutton "Se connecter"
+- Contraintes :
+  - Ecrire un texte "Mouse button : ENTER" lorsque le curseur entre dans la zone
+  - Ecrire un texte "Mouse button : EXIT" lorsque le curseur sort dans la zone
+  - Ne pas écrire plusieurs fois la même detection : l'affichage doit dans la console doit être réalisé 
+    uniquement lorsque qu'un changement ENTER ou EXIT a lieu (et non a chaque déplacement du curseur)
+ 
+ Résultat :
+ 
+    Mouse button : ENTER
+    Mouse button : EXIT
+    Mouse button : ENTER
+    

@@ -32,7 +32,7 @@ soit dynamique : `ORSYS Tunes v1.0`
 - Contraintes :
   - L'écouteur doit être déclaré dans le constructeur de la classe `Application`
   - L'évènement doit être intercepté dans une méthode de la classe `Application` 
-- Afficher sa position (x, y) comme suit :
+- Afficher sa position (x, y)
  
  Résultat :
  

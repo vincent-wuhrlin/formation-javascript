@@ -49,7 +49,8 @@ soit dynamique : `ORSYS Tunes v1.0`
 
 - Détecter le fait que le curseur de la souris rentre dans la zone du boutton "Se connecter"
 - Contraintes :
-  - Il ne faut pas utiliser les évènements `mouseenter` et `mouseleave` (uniquement l'évènement de l'exercice 3.3)
+  - Utiliser la méthode `getBoundingClientRect()` d'un élément pour récupérer sa position
+  - Il ne faut pas utiliser les évènements `mouseenter` et `mouseleave`, `mouseover`, `mouseout` (uniquement l'évènement de l'exercice 3.3)
   - Ecrire un texte "Mouse button : ENTER" lorsque le curseur entre dans la zone
   - Ecrire un texte "Mouse button : EXIT" lorsque le curseur sort dans la zone
   - Ne pas écrire plusieurs fois la même detection : l'affichage doit dans la console doit être réalisé 

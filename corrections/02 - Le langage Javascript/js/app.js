@@ -65,6 +65,17 @@ function initialize()
         // Démarre l'application
         application.start(); 
 
+
+
+        application.debugOld = application.debug;
+        application.debug = function()
+        {
+            console.info("MA FONCTION DE DEBUG");
+            this.debugOld();
+        };
+
+
+
         // Debug l'application
         application.debug();
     }

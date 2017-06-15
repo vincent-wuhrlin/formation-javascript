@@ -4,11 +4,11 @@ Utilisation du DOM XML au sein de l’application créée
 
 ## 6.1. Sauvegarde de l'application dans l'objet `window`
 - Modifier la méthode `initialize()`pour sauvegarder l'objet `application` au sein de l'objet window avant
-  d'appeller la méthode `start()`. Ceci sera utilise au sein des écouteurs poura accéder à l'application,
+  d'appeller la méthode `start()`. Ceci sera utilisé au sein des écouteurs pour accéder à l'application,
   car `this` ne sera pas disponible.
 
 
-## 6.2. Modification du titre du header 
+## 6.2. Modification du titre de l'application 
 - Editer le fichier `app.html` et le fichier `js/app.js` afin que le titre du header soit remplacé par
   le nom de l'application ainsi que la version (comme dans la console au démarrage de l'appliation)
   

@@ -11,6 +11,6 @@ Ajout de fonctionnalités de mise en page dynamiques au sein de l’application
 - Modifie le fichier `app.js` afin qu'au démarrage de l'application :
  - Le formulaire tout entier dispose de la couleur de fond à `#009688`
  - Au bout de 100ms, ajouter la classe `visible`
-   - Il faudra utiliser la méthode javascript `timeout` pour pouvoir avoir une temporisation
+   - Il faudra utiliser la méthode javaScript `timeout` pour pouvoir avoir une temporisation
  - Au bout de 1s, modifier la couleur de fond à `#607d8b`
  

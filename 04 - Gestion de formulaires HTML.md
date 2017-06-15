@@ -10,7 +10,7 @@ Page d’authentification de l’application + formulaire d’ajout d’un élé
 - Le mot de passe doit être obligatoire et en cas d'erreur, le message "Mot de passe manquant" doit s'afficher dans
   l'espace prévu (sous le mot de passe)
 - Le mot de passe doit être valide et suivre l'expression régulière suivante : `^.{4,8}$`.
-  En cas d'erreur, le message "Email invalide" doit s'afficher dans l'espace prévu (sous le mot de passe)
+  En cas d'erreur, le message "Mot de passe invalide" doit s'afficher dans l'espace prévu (sous le mot de passe)
 - Si l'email et le mot de passe sont valides, vérifier que seul le compte `admin@test.com` / `1234` (email / mot de passe)
   pourra se connecter lorsque l'on clic sur le bouton "Se connecter".
   En cas d'erreur,  le message "Informations de connexion invalides" doit s'afficher dans l'espace prévu

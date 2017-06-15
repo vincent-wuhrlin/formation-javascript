@@ -5,7 +5,8 @@ Ajout de fonctionnalités de mise en page dynamiques au sein de l’application
 ## 5.1. Modification de la couleur de fond des champs du formulaire 
 - Dans le cas ou les champs emails et mot de passe sont invalide, ajouter la classe CSS `error`
 - Ci-dessous le code de la classe CSS à ajouter dans la feuille de style `css/app.css`
-
+ 
+ Code CSS :
 
     input.error
     {
